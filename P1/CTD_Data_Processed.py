@@ -1,4 +1,7 @@
+Python 3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
 
+IPython 8.27.0 -- An enhanced Interactive Python.
 
 >>> import pandas as pd
 >>> df = pd.read_csv("CTD_Data_Processed.csv")
