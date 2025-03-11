@@ -1,1 +1,18 @@
+Python 3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
 
+IPython 8.27.0 -- An enhanced Interactive Python.
+
+import pandas as pd
+
+file_path = "CTD_Data_Processed.csv"
+
+df = pd.read_csv(file_path)
+
+print(df.head())
+         Date  Time  Depth (m)  Temperature (°C)  Salinity (psu)
+0  11/29/2008  6:52          5             28.97           35.21
+1  11/29/2008  6:52          6             28.98           35.21
+2  11/29/2008  6:52          7             28.99           35.21
+3  11/29/2008  6:52          8             28.96           35.21
+4  11/29/2008  6:52          9             28.99           35.21
